@@ -26,7 +26,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./zen.mjs"
+      "types": "./dist/zen.d.ts",
+      "import": "./dist/zen.js"
     }
   },
   "scripts": {
