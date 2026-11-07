@@ -35,7 +35,7 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run test && npm run build",
     "test": "tsx --test src/*.test.ts",
-    "publish": "npm run prepublishOnly && npm publish --registry https://registry.npmjs.org/"
+    "buildAndPublish": "npm run prepublishOnly && npm publish --registry https://registry.npmjs.org/"
   },
   "devDependencies": {
     "@types/node": "^26.1.1",
